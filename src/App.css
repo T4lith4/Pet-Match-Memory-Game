@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
+
+body {
+    margin: 0;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 50px 150px 50px 150px;
+  }
+  
+  .grid-header-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #cccdd3;
+    padding: 10px;
+  }
+  
+  .justify-left {
+    text-align: left
+  }
+  
+  .justify-end {
+    text-align: right;
+  }
+ 
+  .restart-button {
+    width: 6em;
+    height: 2em;
+    color: white;
+    background-color: #5168e9;
+    border: 0;
+    padding: 3px;
+    margin: 5px;
+    float:right;
+    margin-right: 620px;
+    font-family: 'Barriecito', cursive;
+    font-size: 20px;
+  }
+  
+  .help-button {
+    width: 6em;
+    height: 2em;
+    color: white;
+    background-color: #555555;
+    border: 0; 
+    padding: 3px;
+    margin: 5px;
+    float: right;
+    font-family: 'Barriecito', cursive;
+    font-size: 20px;
+  }
+
+  .card {
+    width: 170px;
+    height: 200px;
+  }
+
+  .hide-card {
+    visibility: hidden;
+  }
+
+  .card-front {
+    background-image: url("https://www.nicepng.com/png/detail/8-86408_free-download-question-mark-brush-stroke.png");
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    color: white;
+  }
+
+  .card-image {
+    width: 170px; 
+    height: 200px;
+  }
+
+  .heading-text {
+    font-family: 'Barriecito', cursive;
+    font-size: 45px;
+    margin-left: 660px;
+  }
+
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 10px;
+    -webkit-box-shadow: -2px -11px 38px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -11px 38px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px -11px 38px 0px rgba(0,0,0,0.75);
+  }
+  
+  .modal-header {
+   text-align: center;
+  }
+
+  .modal-closer {
+    margin-left: 41%;
+    margin-right: 40%; 
+  }
+
+  .win-restart {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .win-message {
+    font-family: 'Barriecito', cursive;
+    font-size: 150px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .count-down {
+    font-family: 'Barriecito', cursive;
+    font-size: 50px;
+    position: fixed;
+    top: 60%;
+    left: 40%;
+    transform: translate(-30%, -70%);
+    margin-top: 20px;
+  }
+
+  .count-down-seconds {
+    font-family: 'Barriecito', cursive;
+    font-size: 80px;
+    position: fixed;
+    top: 72%;
+    left: 50%;
+    transform: translate(-30%, -70%);
+    margin-top: 20px;
+    color: red;
+  }
+
+  
+
+  
+  
+  
+  
