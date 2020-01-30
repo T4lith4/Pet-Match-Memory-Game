@@ -63,11 +63,12 @@ body {
   }
 
   .card-front {
-    background-image: url("https://www.nicepng.com/png/detail/8-86408_free-download-question-mark-brush-stroke.png");
+    background-image: url("./question.jpg");
     background-position: center center;
     background-size: cover;
     box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
-    color: white;
+    border:1px solid grey;
+    /*background-color: aquamarine;*/
   }
 
   .card-image {
